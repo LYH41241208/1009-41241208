@@ -30,10 +30,10 @@ body {
 
 button {
     margin: 0 10px;
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 15px 30px; /* 調整按鈕大小 */
+    font-size: 20px; /* 調整字體大小 */
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 10px; /* 增加圓角 */
     border: 1px solid #000;
     background-color: rgba(221, 221, 221, 0.8); /* 使用透明背景以適應背景圖片 */
 }
@@ -44,19 +44,19 @@ button:hover {
 
 .card-container {
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 30px; /* 增加卡片間距 */
     perspective: 1000px;
     justify-content: center; /* 置中 */
 }
 
 .card {
-    width: 100px;  
-    height: 100px;
+    width: 150px; /* 調整卡片寬度 */
+    height: 150px; /* 調整卡片高度 */
     position: relative;
     transform-style: preserve-3d;
     transition: transform 0.6s;
     cursor: pointer;
-    border-radius: 10px; /* 移除黑色邊框 */
+    border-radius: 15px; /* 增加圓角 */
     opacity: 1; /* 初始不透明度 */
 }
 
@@ -69,7 +69,7 @@ button:hover {
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
-    border-radius: 10px; 
+    border-radius: 15px; 
     overflow: hidden;
 }
 
